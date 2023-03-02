@@ -1,0 +1,131 @@
+
+
+body{
+	font-family: 'serif' Georgia;
+	text-align: center;
+	background-image: url("https://www.psychnewsdaily.com/wp-content/uploads/2020/12/dreams-report-balloon-at-night.jpg");
+}
+
+h1{
+	margin-bottom: 7px;
+}
+
+h2{
+	color: #155257;
+	padding-bottom: 0px;
+	margin: 10px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+p{
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 15px;
+}
+
+.banner{
+	width: 100%;
+	height: 110px;
+	align-items: center;
+	justify-content: center;
+}
+
+.cards{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+
+.card{
+	width: 15%;
+	display: flex;
+	background: #ffcccc;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 12px;
+	padding: 12px;
+	margin: 90px 5px 5px 5px;
+	box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.75);
+	text-align: justify;
+}
+
+
+.inside{
+	background: linear-gradient(to right, #38ef7d 0%, #11998e 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-colot: transparent;
+}
+
+img{
+	width: 150px;
+	height: 170px;
+}
+
+.icons{
+	padding-top: 15px;
+	display: flex;
+	text-decoration: none;
+	align-items: center;
+	justify-content: center;
+	column-gap: 0px;
+	font-size: 25px;
+	padding: 5px;
+	color: #155257;
+	margin-top: 33px;
+}
+
+.fa-facebook:hover {
+	text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  	color: whitesmoke;
+}
+
+.fa-gifthub:hover {
+	text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  	color: whitesmoke;
+}
+
+.fa-linkedin:hover {
+	text-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  	color: whitesmoke;
+}
+
+
+a{
+	color: whitesmoke;
+	text-decoration: none;
+	margin-bottom: 15px;
+}
+
+#button{
+	margin: 0 auto;
+	width: 30%;
+	padding: 4px 8px 4px 8px;
+	text-align: center;
+	margin: 20 0 20 0;
+	text-decoration: none;
+	color: #0080ff;
+	border: 3px solid lightgoldenrodyellow;
+	background-color: whitesmoke;
+	border-radius: 8px;
+	box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.75);
+}
+
+#button:hover {
+	color:#ffbf00;
+	background-color: #ffbf00;
+}
+
+.footer {
+   background-color:#A9BCF5;
+   padding: 10px;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  border: 3px solid gray;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.75);
+}
+
+
